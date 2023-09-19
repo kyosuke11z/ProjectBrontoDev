@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณเปอร์เซ็นลดราคาสินค้า</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body style="background-color: rgb(237, 234, 234); color: black;"></body>
+    <div class="container">
+        <h1>คำนวณเปอร์เซ็นลดราคาสินค้า</h1>
+        <form id="discountForm">
+            <label for="product">สินค้า:</label>
+            <input type="text" id="product" placeholder="กรอกชื่อสินค้า">
+            <label for="originalPrice">ราคาเต็ม (บาท):</label>
+            <input type="number" id="originalPrice" placeholder="กรอกราคาเต็ม">
+            <label for="discountPercentage">เปอร์เซ็นลด (%):</label>
+            <input type="number" id="discountPercentage" placeholder="กรอกเปอร์เซ็นลด">
+            <button type="button" onclick="calculateDiscount()">คำนวณ</button>
+        </form>
+        <div id="result"></div>
+        <a href="/Page5.html" class="back-button">กลับหน้าแรก</a>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

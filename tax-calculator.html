@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณภาษี</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(237, 234, 234); color: black;"></body>
+    <h1>เครื่องคำนวณภาษี</h1>
+    <div class="calculator">
+        <label for="income">รายได้:</label>
+        <input type="number" id="income" name="income">
+        
+        <label for="taxPercentage">เปอร์เซ็นต์ภาษี (%):</label>
+        <input type="number" id="taxPercentage" name="taxPercentage">
+        
+        <button id="calculate-button">คำนวณภาษี</button>
+        <p id="tax-result"></p>
+        <button id="go-back-button"><a href="Page2.html">กลับสู่หน้าแรก</a></button>
+    </div>
+    <script src="scriptTax.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(237, 234, 234); color: black;"></body>
+    <div class="container">
+        <h1>คำนวณแคลอรี่</h1>
+        <form id="foodForm">
+            <label for="food">รายการอาหาร:</label>
+            <input type="text" id="food" placeholder="รายการอาหาร">
+            <label for="calories">แคลอรี่:</label>
+            <input type="number" id="calories" placeholder="แคลอรี่">
+            <label for="gender">เพศ:</label>
+            <select id="gender">
+                <option value="male">ชาย</option>
+                <option value="female">หญิง</option>
+            </select>
+            <button type="button" onclick="addFood()">เพิ่มรายการ</button>
+        </form>
+        <div id="foodList">
+            <!-- รายการอาหารที่เพิ่มจะแสดงที่นี่ -->
+        </div>
+        <button onclick="calculateCalories()">คำนวณ</button>
+        <p id="result"></p>
+        <a href="/Page4.html" class="back-button">กลับหน้าแรก</a>
+    </div>
+
+    <script src="script.js"></script>
+    <p style="text-align: center; color: rgb(0, 0, 0);">เว็บนี้จัดทำขึ้นเพื่อการศึกษาในการทำงานทั้ง HTML5 CSS3 และ JavaScript</p>
+    <p style="text-align: center; color: rgb(0, 0, 0);">ทำขึ้นเพื่อการคำนวยในด้านต่างๆทั้ง 4 ด้านข้างต้นหวังว่าจะเป็นประโยชน์ไม่มากก็น้อย</p>
+    <p style="text-align: center; color: rgb(0, 0, 0);">By Apirak Chatluang</p>
+</body>
+</html>

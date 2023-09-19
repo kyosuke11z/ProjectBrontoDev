@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณอุณหภูมิ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(237, 234, 234); color: black;"></body>
+    <div class="container">
+        <h1>คำนวณอุณหภูมิ</h1>
+        <form id="temperatureForm">
+            <label for="temperature">อุณหภูมิ :</label>
+            <input type="number" id="temperature" placeholder="กรอกอุณหภูมิ">
+            <button type="button" onclick="convertToFahrenheit()">แปลงเป็น Fahrenheit</button>
+            <button type="button" onclick="convertToCelsius()">แปลงเป็น Celsius</button>
+        </form>
+        <div id="result"></div>
+        <a href="/Page5.html" class="back-button">กลับหน้าแรก</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
